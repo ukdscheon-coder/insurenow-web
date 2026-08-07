@@ -1,0 +1,352 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InsureNow - 교통사고 신고 앱</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f9fafb;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin: 20px 0 40px;
+        }
+        .logo {
+            font-size: 48px;
+            margin-bottom: 12px;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #6b7280;
+        }
+        .sos-button {
+            width: 100%;
+            background: #dc2626;
+            color: white;
+            border: none;
+            padding: 24px;
+            border-radius: 12px;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+            transition: all 0.2s;
+        }
+        .sos-button:active {
+            transform: scale(0.98);
+            box-shadow: 0 2px 6px rgba(220, 38, 38, 0.3);
+        }
+        .section {
+            margin-bottom: 24px;
+        }
+        .section-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 12px;
+        }
+        .item {
+            padding: 12px;
+            background: #f9fafb;
+            border-radius: 8px;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid #e5e7eb;
+        }
+        .item-text {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .item-action {
+            font-size: 12px;
+            color: #2563eb;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .tip-box {
+            background: #f0fdf4;
+            border-left: 4px solid #16a34a;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 13px;
+            color: #4b5563;
+            line-height: 1.6;
+        }
+        .tab-nav {
+            display: flex;
+            gap: 12px;
+            margin-top: 32px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+        }
+        .tab-btn {
+            flex: 1;
+            padding: 12px;
+            background: #f3f4f6;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: bold;
+            color: #6b7280;
+            transition: all 0.2s;
+        }
+        .tab-btn.active {
+            background: #4f46e5;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🚗</div>
+            <div class="title">InsureNow</div>
+            <div class="subtitle">단순하고 사용하기 쉬운<br>교통사고 신고 앱</div>
+        </div>
+
+        <button class="sos-button" onclick="alert('🚨 사고 신고 시작!\n\n1단계: 부상자 확인\n2단계: 안전 확인\n3단계: 사진 촬영\n4단계: 내 차량 사진\n5단계: 상대 차량 사진\n6단계: 사고 정보\n7단계: 사고 경위\n8단계: 목격증인\n9단계: 최종 확인\n10단계: 공유 및 완료')">
+            🚨 사고가 났어요!
+        </button>
+
+        <div class="section">
+            <div class="section-title">📋 오늘의 점검</div>
+            <div class="item">
+                <div class="item-text">🔧 정기점검</div>
+                <div class="item-action">예약하기</div>
+            </div>
+            <div class="item">
+                <div class="item-text">⛽ 연료</div>
+                <div class="item-action">충분합니다</div>
+            </div>
+            <div class="item">
+                <div class="item-text">🧪 타이어 점검</div>
+                <div class="item-action">6개월 후</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">📞 긴급 연락처</div>
+            <div class="item">
+                <div class="item-text">🚨 경찰</div>
+                <div class="item-action">
+                    <a href="tel:110" style="color: #dc2626; text-decoration: none; font-weight: bold;">110 전화</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-text">🚑 구급차</div>
+                <div
+
+@"
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InsureNow - 교통사고 신고 앱</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f9fafb;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin: 20px 0 40px;
+        }
+        .logo {
+            font-size: 48px;
+            margin-bottom: 12px;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #6b7280;
+        }
+        .sos-button {
+            width: 100%;
+            background: #dc2626;
+            color: white;
+            border: none;
+            padding: 24px;
+            border-radius: 12px;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+            transition: all 0.2s;
+        }
+        .sos-button:active {
+            transform: scale(0.98);
+            box-shadow: 0 2px 6px rgba(220, 38, 38, 0.3);
+        }
+        .section {
+            margin-bottom: 24px;
+        }
+        .section-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 12px;
+        }
+        .item {
+            padding: 12px;
+            background: #f9fafb;
+            border-radius: 8px;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid #e5e7eb;
+        }
+        .item-text {
+            font-size: 14px;
+            color: #4b5563;
+        }
+        .item-action {
+            font-size: 12px;
+            color: #2563eb;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .tip-box {
+            background: #f0fdf4;
+            border-left: 4px solid #16a34a;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 13px;
+            color: #4b5563;
+            line-height: 1.6;
+        }
+        .tab-nav {
+            display: flex;
+            gap: 12px;
+            margin-top: 32px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+        }
+        .tab-btn {
+            flex: 1;
+            padding: 12px;
+            background: #f3f4f6;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: bold;
+            color: #6b7280;
+            transition: all 0.2s;
+        }
+        .tab-btn.active {
+            background: #4f46e5;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🚗</div>
+            <div class="title">InsureNow</div>
+            <div class="subtitle">단순하고 사용하기 쉬운<br>교통사고 신고 앱</div>
+        </div>
+
+        <button class="sos-button" onclick="alert('🚨 사고 신고 시작!\n\n1단계: 부상자 확인\n2단계: 안전 확인\n3단계: 사진 촬영\n4단계: 내 차량 사진\n5단계: 상대 차량 사진\n6단계: 사고 정보\n7단계: 사고 경위\n8단계: 목격증인\n9단계: 최종 확인\n10단계: 공유 및 완료')">
+            🚨 사고가 났어요!
+        </button>
+
+        <div class="section">
+            <div class="section-title">📋 오늘의 점검</div>
+            <div class="item">
+                <div class="item-text">🔧 정기점검</div>
+                <div class="item-action">예약하기</div>
+            </div>
+            <div class="item">
+                <div class="item-text">⛽ 연료</div>
+                <div class="item-action">충분합니다</div>
+            </div>
+            <div class="item">
+                <div class="item-text">🧪 타이어 점검</div>
+                <div class="item-action">6개월 후</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">📞 긴급 연락처</div>
+            <div class="item">
+                <div class="item-text">🚨 경찰</div>
+                <div class="item-action">
+                    <a href="tel:110" style="color: #dc2626; text-decoration: none; font-weight: bold;">110 전화</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-text">🚑 구급차</div>
+                <div class="item-action">
+                    <a href="tel:119" style="color: #dc2626; text-decoration: none; font-weight: bold;">119 전화</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-text">🛣️ 로드서비스</div>
+                <div class="item-action">
+                    <a href="tel:1577" style="color: #2563eb; text-decoration: none; font-weight: bold;">1577 전화</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="tip-box">
+            💡 알고 계셨나요?<br>
+            사고 직후 첫 5분이 가장 중요합니다.
+            이 앱을 사용하면 정확하게 모든 정보를
+            기록할 수 있습니다.
+        </div>
+
+        <div class="tab-nav">
+            <button class="tab-btn active">🏠 홈</button>
+            <button class="tab-btn">🔧 차계부</button>
+            <button class="tab-btn">⚙️ 설정</button>
+        </div>
+    </div>
+</body>
+</html>
