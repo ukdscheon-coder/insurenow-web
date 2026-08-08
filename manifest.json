@@ -1,0 +1,55 @@
+﻿{
+  "name": "InsureNow - 교통사고 신고 및 보험처리",
+  "short_name": "InsureNow",
+  "description": "교통사고 발생 시 신속한 신고 및 보험처리 지원 - 한국어, 영어, 일본어 지원",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#4f46e5",
+  "background_color": "#ffffff",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%234f46e5' width='192' height='192' rx='45'/><text x='96' y='96' font-size='100' fill='white' text-anchor='middle' dominant-baseline='middle'>🚗</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%234f46e5' width='512' height='512' rx='120'/><text x='256' y='256' font-size='300' fill='white' text-anchor='middle' dominant-baseline='middle'>🚗</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%234f46e5' width='192' height='192' rx='45'/><text x='96' y='96' font-size='100' fill='white' text-anchor='middle' dominant-baseline='middle'>🚗</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["utilities", "productivity"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%23f9fafb' width='540' height='720'/><rect fill='%234f46e5' width='540' height='100'/><text x='270' y='50' font-size='40' fill='white' text-anchor='middle' dominant-baseline='middle'>InsureNow</text><text x='270' y='300' font-size='60' text-anchor='middle' dominant-baseline='middle'>🚗</text><text x='270' y='400' font-size='30' fill='%231f2937' text-anchor='middle' dominant-baseline='middle'>교통사고 신고</text></svg>",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "긴급신고",
+      "short_name": "신고",
+      "description": "긴급신고 시작",
+      "url": "/?mode=emergency",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%23dc2626' width='96' height='96' rx='20'/><text x='48' y='48' font-size='60' fill='white' text-anchor='middle' dominant-baseline='middle'>🚨</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}
